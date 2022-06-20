@@ -4,17 +4,15 @@ import React from "react";
 import Navbar from "/workspace/react-hello/src/js/component/navBar.jsx";
 import Jumbotron from "/workspace/react-hello/src/js/component/Jumbotron.jsx";
 import Card from "/workspace/react-hello/src/js/component/cards.jsx";
-import Footer from "/workspace/react-hello/src/js/component/Footer.jsx";
 //create your first component
-const Home = () => {
+const Footer = () => {
 	return (
-		<div className="App">
-		<Navbar></Navbar>,
-		<Jumbotron></Jumbotron>,
-		<Card></Card>,
-		<Footer></Footer>
-		</div>
-		);
+		<div className="container-fluid">
+		<footer className="footer my-auto py-3 bg-dark">
+		  <p className="text-center text-muted">&copy; 2022 Company, Inc</p>
+		</footer>
+	  </div>
+		)
 };
 
-export default Home;
+export default Footer;
