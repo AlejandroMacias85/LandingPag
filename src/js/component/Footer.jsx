@@ -1,9 +1,7 @@
 import React from "react";
 
 //include images into your bundle
-import Navbar from "/workspace/react-hello/src/js/component/navBar.jsx";
-import Jumbotron from "/workspace/react-hello/src/js/component/Jumbotron.jsx";
-import Card from "/workspace/react-hello/src/js/component/cards.jsx";
+
 //create your first component
 const Footer = () => {
 	return (

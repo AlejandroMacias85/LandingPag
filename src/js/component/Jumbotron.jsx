@@ -6,7 +6,7 @@ import React from "react";
 const Jumbotron = () => {
   return (
     <div className="container">
-      <div className="jumbotron p-5 mb-1 border rounded-3 bg-secondary ">
+      <div className="jumbotron p-5 mx-0 border rounded-3 bg-secondary ">
         <h1 className="display-1">Welcome to react</h1>
         <p className="lead">
           React is the most popular rendering library in the world
